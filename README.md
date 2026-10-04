@@ -6,10 +6,6 @@ It works entirely in the browser (no backend required) and allows users to gener
 
 ## Screenshots
 
-*(Add your screenshots here!)*
-<!-- Example: ![QR Craft Customizer](./docs/screenshot1.png) -->
-<!-- Example: ![QR Craft Dark Mode](./docs/screenshot2.png) -->
-
 ## Features
 
 - **Real-Time Generation**: Instantly renders the QR code as you type.
@@ -36,7 +32,7 @@ It works entirely in the browser (no backend required) and allows users to gener
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-github-repo-url>
+   git clone <https://github.com/prattik-wav/qr-craft>
    cd qr-craft
    ```
 
