@@ -32,7 +32,7 @@ It works entirely in the browser (no backend required) and allows users to gener
 
 1. **Clone the repository:**
    ```bash
-   git clone <https://github.com/prattik-wav/qr-craft>
+   git clone <https://github.com/prattik-wav/qr-craft.git>
    cd qr-craft
    ```
 
