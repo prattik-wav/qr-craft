@@ -28,10 +28,10 @@ It works entirely in the browser (no backend required) and allows users to gener
 
 ## Tech Stack
 
-- **Frontend**: React (with Vite for fast bundling)
+- **Frontend**: React (with Vite)
 - **Language**: TypeScript
-- **Styling**: Pure CSS (Neobrutalism Design System)
-- **QR Engine**: `qr-code-styling` (for advanced Canvas/SVG rendering)
+- **Styling**: CSS
+- **QR Engine**: `qr-code-styling` 
 - **Deployment**: Vercel
 
 ## How to Run Locally
