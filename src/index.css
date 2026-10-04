@@ -1,0 +1,141 @@
+/* ========== Elegant Neobrutalism Base Styles ========== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Light Theme */
+  --bg-color: #f4f0ea;
+  --surface: #ffffff;
+  --surface-hover: #fcfcfc;
+  
+  --primary: #ff5252;
+  --primary-hover: #ff3b3b;
+  --secondary: #4D96FF;
+  --accent: #FFD93D;
+  
+  --text: #111111;
+  --text-secondary: #333333;
+  --text-muted: #666666;
+  
+  --border: #111111;
+  --shadow-color: #111111;
+  
+  --border-width: 2px;
+  --radius-lg: 8px;
+  --radius: 6px;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  
+  --shadow-sm: 2px 2px 0px var(--shadow-color);
+  --shadow: 4px 4px 0px var(--shadow-color);
+  --shadow-md: 6px 6px 0px var(--shadow-color);
+  --shadow-lg: 8px 8px 0px var(--shadow-color);
+  
+  --error: #e63946;
+  --error-bg: #f8d7da;
+  --warning: #f4a261;
+  --warning-bg: #fae3d9;
+  
+  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  
+  ::selection {
+    background: var(--accent);
+    color: #111;
+  }
+}
+
+/* Dark Theme - Beautiful Vibrant Neobrutalism */
+[data-theme='dark'] {
+  --bg-color: #0f0f11;
+  --surface: #1a1a1c;
+  --surface-hover: #222225;
+  
+  --primary: #ff6b6b;
+  --secondary: #33d9b2;
+  --accent: #feca57;
+  
+  --text: #f8f9fa;
+  --text-secondary: #ced4da;
+  --text-muted: #adb5bd;
+  
+  --border: #e9ecef;
+  
+  /* In dark mode, shadows are brightly colored for extreme contrast and beauty */
+  --shadow-color: var(--secondary); 
+  
+  --error-bg: #4d1a1a;
+  --warning-bg: #4d3319;
+}
+
+/* Animated Pattern Background */
+body {
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-color);
+  
+  /* Elegant dotted grid pattern */
+  background-image: radial-gradient(var(--border) 2px, transparent 2px);
+  background-size: 32px 32px;
+  background-position: 0 0;
+  
+  /* Faster, more dynamic pan */
+  animation: panBackground 20s linear infinite;
+  
+  position: relative;
+  overflow-x: hidden;
+}
+
+[data-theme='dark'] body {
+  /* Softer dots in dark mode */
+  background-image: radial-gradient(rgba(255,255,255,0.2) 2px, transparent 2px);
+}
+
+@keyframes panBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -128px -128px;
+  }
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all var(--transition);
+}
+a:hover {
+  color: var(--text);
+  background: var(--accent);
+  box-shadow: 2px 2px 0px var(--shadow-color);
+}
+
+/* ========== Scrollbar ========== */
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-left: var(--border-width) solid var(--border);
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border: var(--border-width) solid var(--border);
+  border-right: none;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
