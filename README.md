@@ -55,6 +55,4 @@ It works entirely in the browser (no backend required) and allows users to gener
 4. Open `http://localhost:5173` in your browser.
 
 ## Deployment
-
-This project is optimized for zero-config deployment on Vercel. 
-Simply connect the GitHub repository to Vercel, and it will automatically detect the Vite framework, run `npm run build`, and deploy the `dist/` folder.
+This project has been deployed on Vercel, to access go to https://qr-craft-five-virid.vercel.app/
