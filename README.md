@@ -6,20 +6,20 @@ It works entirely in the browser (no backend required) and allows users to gener
 
 ## Screenshots
 
-# Light Mode
+### Light Mode
 <img width="1710" height="1074" alt="Screenshot 2026-10-04 at 6 32 22 PM" src="https://github.com/user-attachments/assets/9eb35900-2c0f-4e43-a18f-4bd0a32333b9" />
 
-# Dark Mode
+### Dark Mode
 <img width="1710" height="1074" alt="Screenshot 2026-10-04 at 6 34 58 PM" src="https://github.com/user-attachments/assets/a0da28a3-03cb-4582-a9f4-efe99dd93ad4" />
 
-# Different Types
+### Different Types
 <img width="1710" height="1074" alt="Screenshot 2026-10-04 at 6 33 06 PM" src="https://github.com/user-attachments/assets/1fec701d-2fa6-457f-8776-618dbaf98e09" />
 <img width="1710" height="1074" alt="Screenshot 2026-10-04 at 6 34 02 PM" src="https://github.com/user-attachments/assets/11580e66-d807-4fb5-9969-1ffccb1efbc7" />
 
-# Customization
+### Customization
 <img width="634" height="594" alt="Screenshot 2026-10-04 at 6 32 46 PM" src="https://github.com/user-attachments/assets/a3c1a965-455c-4339-94d0-a2777b127947" />
 
-# Preview Section
+### Preview Section
 <img width="547" height="966" alt="Screenshot 2026-10-04 at 6 34 46 PM" src="https://github.com/user-attachments/assets/f0cd9d76-c99f-4ee8-9638-31935ca9c317" />
 
 ## Features
