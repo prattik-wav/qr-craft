@@ -4,13 +4,13 @@ A beautiful, fully client-side QR Code Generator built for my Google Club recrui
 
 It works entirely in the browser (no backend required) and allows users to generate, customize, and download highly reliable QR codes instantly.
 
-## 📸 Screenshots
+## Screenshots
 
 *(Add your screenshots here!)*
 <!-- Example: ![QR Craft Customizer](./docs/screenshot1.png) -->
 <!-- Example: ![QR Craft Dark Mode](./docs/screenshot2.png) -->
 
-## ✨ Features
+## Features
 
 - **Real-Time Generation**: Instantly renders the QR code as you type.
 - **Multiple Data Types**: Supports URL, Plain Text, Email, Phone Number, and Wi-Fi networks (dynamically changes inputs based on selection).
@@ -24,7 +24,7 @@ It works entirely in the browser (no backend required) and allows users to gener
 - **Export & Persistence**: Download as PNG or SVG, copy directly to the clipboard, and save your favorite configurations to a "Recent" tab (persisted via `localStorage`).
 - **Dark Mode**: Beautiful Neobrutalist Light and Dark modes.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React (with Vite for fast bundling)
 - **Language**: TypeScript
@@ -32,7 +32,7 @@ It works entirely in the browser (no backend required) and allows users to gener
 - **QR Engine**: `qr-code-styling` (for advanced Canvas/SVG rendering)
 - **Deployment**: Vercel
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. **Clone the repository:**
    ```bash
@@ -52,7 +52,7 @@ It works entirely in the browser (no backend required) and allows users to gener
 
 4. Open `http://localhost:5173` in your browser.
 
-## 🌍 Deployment
+## Deployment
 
 This project is optimized for zero-config deployment on Vercel. 
 Simply connect the GitHub repository to Vercel, and it will automatically detect the Vite framework, run `npm run build`, and deploy the `dist/` folder.
