@@ -34,7 +34,7 @@ It works entirely in the browser (no backend required) and allows users to gener
   - Upload a custom logo to the center of the QR code.
 - **Client-Side Processing**: 100% of the QR generation logic happens in the browser for maximum privacy and speed.
 - **Export & Persistence**: Download as PNG or SVG, copy directly to the clipboard, and save your favorite configurations to a "Recent" tab (persisted via `localStorage`).
-- **Dark Mode**: Beautiful Neobrutalist Light and Dark modes.
+- **Appearance**: Light and Dark Modes available.
 
 ## Tech Stack
 
