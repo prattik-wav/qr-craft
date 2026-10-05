@@ -50,7 +50,6 @@ function App() {
     if (!qrInstanceRef.current || !hasValidContent) return;
 
     try {
-      // grab a small thumbnail
       const blob = await qrInstanceRef.current.getRawData('png');
       if (!blob) return;
 
@@ -67,7 +66,6 @@ function App() {
         };
 
         setSavedCodes((prev) => {
-          // keep max 12 entries, newest first
           const updated = [newEntry, ...prev.slice(0, 11)];
           return updated;
         });
@@ -80,9 +78,6 @@ function App() {
 
   const handleLoadSaved = useCallback((saved: SavedQR) => {
     setQrStyle({ ...saved.style });
-    // we can't perfectly reconstruct the form fields from the encoded string,
-    // but we store enough info to re-generate
-    // TODO: maybe store full QRData in SavedQR in the future
   }, []);
 
   const handleDeleteSaved = useCallback(
