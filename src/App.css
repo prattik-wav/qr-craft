@@ -1,5 +1,3 @@
-/* ========== Elegant Neobrutalist Header ========== */
-
 .app-header {
   display: flex;
   align-items: center;
@@ -101,8 +99,6 @@
   height: calc(100vh - 140px);
 }
 
-/* ========== Brutalist Panels ========== */
-
 .type-selector,
 .input-form,
 .customizer,
@@ -114,8 +110,6 @@
   border: var(--border-width) solid var(--border);
   box-shadow: var(--shadow);
 }
-
-/* ========== Section Labels ========== */
 
 .section-label {
   font-family: 'Space Grotesk', sans-serif;
@@ -133,8 +127,6 @@
   box-shadow: var(--shadow-sm);
   transform: rotate(-1deg);
 }
-
-/* ========== Type Selector ========== */
 
 .type-buttons {
   display: flex;
@@ -179,8 +171,6 @@
   display: flex;
   align-items: center;
 }
-
-/* ========== Input Form ========== */
 
 .field {
   margin-bottom: 20px;
@@ -292,8 +282,6 @@
   gap: 8px;
   text-transform: uppercase;
 }
-
-/* ========== Customizer ========== */
 
 .control-row {
   display: flex;
@@ -545,8 +533,6 @@
   box-shadow: 0px 0px 0px var(--shadow-color);
 }
 
-/* ========== Preset Picker & Patterns ========== */
-
 .preset-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -584,7 +570,6 @@
   box-shadow: var(--shadow-sm);
 }
 
-/* CSS Patterns for the presets */
 .pattern-dots {
   background-image: radial-gradient(currentColor 3px, transparent 3px);
   background-size: 12px 12px;
@@ -607,8 +592,6 @@
   text-transform: uppercase;
   color: var(--text);
 }
-
-/* ========== QR Preview ========== */
 
 .qr-preview {
   display: flex;
@@ -661,8 +644,6 @@
   border: var(--border-width) dashed var(--border);
   margin-top: 24px;
 }
-
-/* ========== Download Bar ========== */
 
 .download-bar {
   display: flex;
@@ -743,8 +724,6 @@
   transform: translate(4px, 4px);
   box-shadow: 0px 0px 0px var(--shadow-color);
 }
-
-/* ========== Recent Codes ========== */
 
 .recent-codes {
   display: flex;
@@ -899,8 +878,6 @@
   transform: translate(2px, 2px);
   box-shadow: 0px 0px 0px var(--shadow-color);
 }
-
-/* ========== Footer ========== */
 
 .app-footer {
   text-align: center;
